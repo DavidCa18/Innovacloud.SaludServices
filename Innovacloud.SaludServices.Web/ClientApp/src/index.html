@@ -9,7 +9,6 @@
    <meta name="viewport" content="width=device-width, initial-scale=1" />
    <link rel="icon" type="image/x-icon" href="assets\images\favicon.png" />
 
-
    <!-- Google Fonts -->
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
@@ -27,11 +26,17 @@
    <link rel="stylesheet" href="assets/css/flag-icon.min.css">
    <link rel="stylesheet" href="assets/css/style.css">
 
-
 </head>
 
 <body>
-   <app-root>Loading...</app-root>
+   <app-root>
+
+      <div class="preloader" id="preloader">
+         <div class="loader">
+            <svg class="spinner" viewBox="0 0 50 50"><circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle></svg>
+         </div>
+      </div>
+   </app-root>
 </body>
 
 
@@ -51,5 +56,6 @@
 <script src="assets/js/jquery.ripples-min.js"></script>
 <script src="assets/js/quantity-input.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="js/map.js"></script>
 
 </html>
