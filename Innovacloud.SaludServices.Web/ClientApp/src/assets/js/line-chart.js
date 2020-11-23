@@ -16,9 +16,9 @@ var chart = new Chart(ctx, {
             label: "Result",
             data: [0, 20, 5, 40, 15, 40, 20, 50],
             backgroundColor: 'transparent',
-            borderColor: '#287dfa',
+            borderColor: '#104B89',
             pointBorderColor: '#ffffff',
-            pointBackgroundColor: '#287dfa',
+            pointBackgroundColor: '#104B89',
             pointBorderWidth: 2,
             pointRadius: 4
 

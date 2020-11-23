@@ -235,10 +235,10 @@ body {
   background-color: $theme-color;
 }
 .gradient-bg {
-  background: -moz-linear-gradient(-45deg,  #287dfa 0%, #2273e5 100%);
-  background: -webkit-linear-gradient(-45deg,  #287dfa 0%,#2273e5 100%);
-  background: linear-gradient(135deg,  #287dfa 0%,#2273e5 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#287dfa', endColorstr='#2273e5',GradientType=1 );
+  background: -moz-linear-gradient(-45deg,  #104B89 0%, #2273e5 100%);
+  background: -webkit-linear-gradient(-45deg,  #104B89 0%,#2273e5 100%);
+  background: linear-gradient(135deg,  #104B89 0%,#2273e5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#104B89', endColorstr='#2273e5',GradientType=1 );
 
 }
 .bg-fixed {

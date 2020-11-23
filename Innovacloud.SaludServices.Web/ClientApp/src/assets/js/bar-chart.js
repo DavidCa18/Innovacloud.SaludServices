@@ -15,7 +15,7 @@ var chart = new Chart(ctx, {
         datasets: [{
             label: "One",
             data: [40, 35, 54, 40, 45, 60, 70, 65, 70, 90],
-            backgroundColor: '#287dfa',
+            backgroundColor: '#104B89',
             hoverBackgroundColor: '#2273e5',
             pointBackgroundColor: '#fff',
             borderWidth: 0,
