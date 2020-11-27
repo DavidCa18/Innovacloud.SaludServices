@@ -1,0 +1,245 @@
+<app-client-header></app-client-header>
+
+
+<section class="hero-wrapper">
+  <div class="hero-box hero-bg">
+    <span class="line-bg line-bg1"></span>
+    <span class="line-bg line-bg2"></span>
+    <span class="line-bg line-bg3"></span>
+    <span class="line-bg line-bg4"></span>
+    <span class="line-bg line-bg5"></span>
+    <span class="line-bg line-bg6"></span>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto responsive--column-l">
+          <div class="hero-content pb-5" style="padding-bottom: 20px !important;">
+            <div class="section-heading">
+              <h2 class="sec__title cd-headline zoom" style="font-size: 25px !important;">
+                Proceso de solicitud de viaje
+              </h2>
+            </div>
+          </div><!-- end hero-content -->
+          <div class="section-tab text-center pl-4">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center active" id="flight-tab" data-toggle="tab" href="#flight"
+                  role="tab" aria-controls="flight" aria-selected="true">
+                  <i class="las la-user-tie"></i> Registrador
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center" id="hotel-tab" data-toggle="tab" href="#hotel" role="tab"
+                  aria-controls="hotel" aria-selected="false">
+                  <i class="las la-map-marked-alt"></i> Viaje
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center" id="package-tab" data-toggle="tab" href="#package"
+                  role="tab" aria-controls="package" aria-selected="false">
+                  <i class="las la-globe"></i> Transporte
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center" id="car-tab" data-toggle="tab" href="#car" role="tab"
+                  aria-controls="car" aria-selected="true">
+                  <i class="la la-building"></i> Hospedaje
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center" id="cruise-tab" data-toggle="tab" href="#cruise"
+                  role="tab" aria-controls="cruise" aria-selected="false">
+                  <i class="las la-comment-dollar"></i> Viáticos
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center" id="tour-tab" data-toggle="tab" href="#tour" role="tab"
+                  aria-controls="tour" aria-selected="false">
+                  <i class="las la-user-plus"></i> Aprobador
+                </a>
+              </li>
+            </ul>
+          </div><!-- end section-tab -->
+          <div class="tab-content search-fields-container" id="myTabContent">
+            <div class="tab-pane fade show active" id="flight" role="tabpanel" aria-labelledby="flight-tab">
+              <div class="tab-pane fade show active" id="one-way" role="tabpanel" aria-labelledby="one-way-tab">
+
+                <app-reservation-register></app-reservation-register>
+
+              </div>
+            </div><!-- end tab-pane -->
+            <div class="tab-pane fade" id="hotel" role="tabpanel" aria-labelledby="hotel-tab">
+
+              <app-reservation-travel></app-reservation-travel>
+
+            </div><!-- end tab-pane -->
+            <div class="tab-pane fade" id="package" role="tabpanel" aria-labelledby="package-tab">
+              <div class="section-tab section-tab-2 pb-3" style="padding-right: 15px;">
+                <div class="tab-pane fade show active">
+                  <div class="contact-form-action">
+                    <form action="#" class="row align-items-center">
+                      <div class="col-md-12 pr-0">
+                        <div style="background-color: #104B89; color: #ffffff; border-radius: 5px; padding: 10px;">
+                          <i class="las la-plane"></i> Viaje Aéreo
+                        </div>
+                        <br>
+                      </div>
+                      <div class="col-lg-6 pr-0">
+                        <div class="input-box">
+                          <label class="label-text">Destino - Ruta</label>
+                          <div class="form-group">
+                            <span class="las la-plane-departure form-icon"></span>
+                            <select class="form-control">
+                              <option value="1">Guayaquil - Quito</option>
+                              <option value="2">Cuenca - Guayaquil</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 pr-0">
+                        <div class="input-box">
+                          <label class="label-text">¿Requiere Pasaje?</label>
+                          <div class="form-group">
+                            <span class="las la-ticket-alt form-icon"></span>
+                            <select class="form-control">
+                              <option value="1">Si</option>
+                              <option value="2">No</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+
+                  <div class="btn-box pt-3 text-right">
+                    <a href="car-search-result.html" class="theme-btn">Siguiente</a>
+                  </div>
+
+                </div>
+              </div>
+            </div><!-- end tab-pane -->
+            <div class="tab-pane fade" id="car" role="tabpanel" aria-labelledby="car-tab">
+              <div class="contact-form-action" style="padding-right: 15px;">
+                <form action="#" class="row align-items-center">
+                  <div class="col-lg-6 pr-0">
+                    <div class="input-box">
+                      <label class="label-text">Hotel</label>
+                      <div class="form-group">
+                        <span class="las la-building form-icon"></span>
+                        <select class="form-control">
+                          <option value="3">BEST WESTERN PLAZA CAICEDO</option>
+                          <option value="1">AKROS</option>
+                          <option value="2">CONTINENTAL</option>
+                          <option value="4">SHERATON QUITO</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div><!-- end col-lg-4 -->
+                  <div class="col-lg-6 pr-0">
+                    <div class="input-box">
+                      <label class="label-text">Tarifa</label>
+                      <div class="form-group">
+                        <span class="las la-dollar-sign form-icon"></span>
+                        <input class="date-range form-control" type="text" value="95.03" disabled>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+
+              </div>
+
+              <div class="btn-box pt-3 text-right">
+                <a href="car-search-result.html" class="theme-btn">Siguiente</a>
+              </div>
+            </div><!-- end tab-pane -->
+            <div class="tab-pane fade" id="cruise" role="tabpanel" aria-labelledby="cruise-tab">
+              <div class="contact-form-action">
+                <div class="row">
+                  <div class="col-md-2"></div>
+                  <div class="col-md-8">
+                    <div class="table-form table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Descripción</th>
+                            <th scope="col">Cantidad</th>
+                            <th scope="col">Valor</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>N° Coches</td>
+                            <td>1</td>
+                            <td>$ 27.00</td>
+                          </tr>
+                          <tr>
+                            <td>N° Días</td>
+                            <td>1</td>
+                            <td>$ 22.00</td>
+                          </tr>
+                          <tr style="background-color: #104B89;">
+                            <td style="color: #fff !important;">Subtotal (Coches + Días)</td>
+                            <td></td>
+                            <td style="color: #fff !important;">$ 49.00</td>
+                          </tr>
+                          <tr>
+                            <td>N° Kilómetros</td>
+                            <td>0</td>
+                            <td>$ 0.00</td>
+                          </tr>
+                          <tr>
+                            <td>Otros Viáticos</td>
+                            <td>0</td>
+                            <td>$ 0.00</td>
+                          </tr>
+                          <tr style="background-color: #104B89;">
+                            <td style="color: #fff !important;">Viáticos a Entregar</td>
+                            <td></td>
+                            <td style="color: #fff !important;">$ 49.00</td>
+                          </tr>
+                          <tr>
+                            <td>Hospedaje</td>
+                            <td>1</td>
+                            <td>$ 95.03</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <br>
+                    <div class="btn-box text-right">
+                      <a href="cruise-search-result.html" class="theme-btn">Siguiente</a>
+                    </div>
+                  </div>
+                  <div class="col-md-2"></div>
+                </div>
+              </div>
+
+            </div><!-- end tab-pane -->
+            <div class="tab-pane fade" id="tour" role="tabpanel" aria-labelledby="tour-tab">
+              <div class="contact-form-action">
+                <div class="row" style="padding-right: 15px;">
+                  <div class="col-lg-12 pr-0">
+                    <div class="input-box">
+                      <label class="label-text">Jefe de Área</label>
+                      <div class="form-group">
+                        <span class="las la-building form-icon"></span>
+                        <select class="form-control">
+                          <option value="1">Fernando Peñafiel</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="btn-box pt-3 text-right">
+                <a href="tour-search-result.html" class="theme-btn">Finalizar</a>
+              </div>
+            </div><!-- end tab-pane -->
+          </div>
+        </div><!-- end col-lg-12 -->
+      </div><!-- end row -->
+    </div><!-- end container -->
+    <svg class="hero-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
+      <path d="M0 10 0 0 A 90 59, 0, 0, 0, 100 0 L 100 10 Z"></path>
+    </svg>
+  </div>
+</section>

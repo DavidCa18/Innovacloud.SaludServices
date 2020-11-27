@@ -1,0 +1,126 @@
+<div style="padding: 20px;">
+
+  <div class="row">
+    <div class="col-md-6">
+
+      <div>
+        <label class="label-text"><b>Fecha de Inicio</b></label>
+        <div class="input-group mb-3 input-group-lg">
+          <div class="input-group-prepend">
+            <span class="input-group-text blank" id="Fecha de Inicio">
+              <span class="la la-calendar form-icon"></span>
+            </span>
+          </div>
+          <input type="datetime" class="form-control regular-font" name="daterange-single" placeholder="Fecha de Inicio" aria-describedby="Fecha de Inicio">
+        </div>
+      </div>
+
+      <div>
+        <label class="label-text"><b>Tipo de Viaje</b></label>
+        <div class="input-group mb-3 input-group-lg">
+          <div class="input-group-prepend">
+            <span class="input-group-text blank" id="Tipo de Viaje">
+              <span class="las la-globe form-icon"></span>
+            </span>
+          </div>
+          <kendo-dropdownlist class="form-control regular-font" [data]="lstTipoViaje">
+          </kendo-dropdownlist>
+        </div>
+      </div>
+
+      <div>
+        <label class="label-text"><b>¿Requiere Hospedaje?</b></label>
+        <div class="input-group mb-3 input-group-lg">
+          <div class="input-group-prepend">
+            <span class="input-group-text blank" id="Requiere Hospedaje">
+              <span class="las la-hotel form-icon"></span>
+            </span>
+          </div>
+          <kendo-dropdownlist class="form-control regular-font" [data]="lstHospedaje">
+          </kendo-dropdownlist>
+        </div>
+      </div>
+
+      <div>
+        <label class="label-text"><b>¿Es viaje por capacitación?</b></label>
+        <div class="input-group mb-3 input-group-lg">
+          <div class="input-group-prepend">
+            <span class="input-group-text blank" id="Es viaje por capacitación">
+              <span class="las la-pen form-icon"></span>
+            </span>
+          </div>
+          <kendo-dropdownlist class="form-control regular-font" [data]="lstCapacitacion">
+          </kendo-dropdownlist>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-md-6">
+
+      <div>
+        <label class="label-text"><b>Fecha de Finalización</b></label>
+        <div class="input-group mb-3 input-group-lg">
+          <div class="input-group-prepend">
+            <span class="input-group-text blank" id="Fecha de Finalización">
+              <span class="la la-calendar form-icon"></span>
+            </span>
+          </div>
+          <input type="datetime" class="form-control regular-font" name="daterange-single" placeholder="Fecha de Finalización" aria-describedby="Fecha de Finalización">
+        </div>
+      </div>
+
+
+      <div>
+        <label class="label-text"><b>Nombre Corto</b></label>
+        <div class="input-group mb-3 input-group-lg">
+          <div class="input-group-prepend">
+            <span class="input-group-text blank" id="Nombre Corto">
+              <span class="las la-user-circle form-icon"></span>
+            </span>
+          </div>
+          <input type="text" class="form-control regular-font" placeholder="Nombre Corto" aria-describedby="Nombre Corto">
+        </div>
+      </div>
+
+      <div>
+        <label class="label-text"><b>Número de Noches</b></label>
+        <div class="input-group mb-3 input-group-lg">
+          <div class="input-group-prepend">
+            <span class="input-group-text blank" id="Número de Noches">
+              <span class="las la-moon form-icon"></span>
+            </span>
+          </div>
+          <kendo-dropdownlist class="form-control regular-font" [data]="lstNoches">
+          </kendo-dropdownlist>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-md-12">
+      <div>
+        <label class="label-text"><b>Motivo del Viaje</b></label>
+        <div class="input-group mb-3 input-group-lg">
+          <div class="input-group-prepend">
+            <span class="input-group-text blank" id="Motivo del Viaje">
+              <span class="las la-file-alt form-icon"></span>
+            </span>
+          </div>
+          <input type="text" class="form-control regular-font" placeholder="Motivo del Viaje" aria-describedby="Motivo del Viaje">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-12">
+      <div class="text-right">
+        <button class="theme-btn">
+          Siguiente
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+
+</div>

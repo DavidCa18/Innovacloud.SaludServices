@@ -14,3 +14,11 @@ code {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+
+.blank{
+  background-color: #ffffff !important;
+}
+
+.regular-font{
+  font-size: 14px !important;
+}
